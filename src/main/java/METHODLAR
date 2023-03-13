@@ -1,0 +1,98 @@
+                      METHODLAR
+
+        //bir methodu ogrenirken uc seyi bilmemiz gerekir
+        //1. bu method ne is yapar
+        //2.methodun farkli kullanimlari nasildir
+        //3.bu method size ne return eder
+
+
+ValueOf(); tüm karakterleri rakam olan Stringleri sayilara cevirir.
+           Stringin icine rakam olmayan bir karakter koyarsak hata aliriz
+           bu methodu kullanimi farklidir Intger. yazdigimizde cikar
+           wrapper class larda kullandigimiz data type'larda mevcuttur
+
+
+toUpperCase(); String nesnelerini büyük harflere dönüştürmek için kullanışlı bir metottur
+               ve birçok farklı durumda kullanılabilir.
+
+toLowerCase(); String nesnelerini kücük harflere dönüştürmek için kullanışlı bir metottur
+
+
+charAt(); Stringli bir ifadede character almak istedigimiizde kullaniriz
+          ve parantezin icine almak istedigimiz harfin index numarasini yazariz
+
+
+length(); Stringli bir ifadenin karakter sayisini bize verir
+
+
+subString(); Stringli bir ifadenin belirli bir kismini almak istedigimizde bize yardimci olur
+             baslangic ve bitis noktalarini belirleyen indexler kullanirim
+             subString(2,3) dedigimde 2 dahildir ama 3 degildir
+
+
+contains(); Stringli bir ifadede herhangi bir dizenin(kelime sozcuk) olup olmadigini gosterir
+            true ve false olarak dondurur
+
+
+starsWith(); String nesnesinin belirli bir kelime
+             veya karakter dizisiyle başlayıp başlamadığını kontrol etmek için kullanılabilir.
+             true veya false dondurur
+
+             starsWith(String prefix, int toffset) kullaniminda "prefix" yerine sorgu harfimizi
+             "toffset" yerine karakter numarasi yazariz toffsette yazdigimiz rakam kadar atlar sonrasina bakar
+
+
+endsWith(); Stringli bir ifadenin belirli bir kelime veya characterle bitip bitmedigini kontrol ederiz
+
+
+
+
+replace(); bir String nesnesinde belirtilen bir karakter veya karakter dizisini başka bir karakter
+           veya karakter dizisi ile değiştirmek için kullanılır.
+           replace(target(degistirmek istedigim),replacement(yerine koymak istedigim))
+           *************coklu karakterlerde her zaman "çift tirnak" kullaniriz*********onemliiiiiii
+           tekli karakterlerde farketmez
+
+           bu methodu silmek icinde kullanabiliriz
+           silmek istedigimiz hafrlere hiclik atariz
+           replace("i","") boylece "i" harflerini silmis oluruz
+
+
+
+replaceAll();bir String bir dize içerisindeki tüm belirli karakterleri veya karakter dizisini başka bir karakter
+             veya karakter dizisi ile değiştirmek için kullanılır.
+
+replace(char oldChar, char newChar) --> bir dize içindeki belirtilen oldChar karakterlerini,
+                                        belirtilen newChar karakteri ile değiştirir.
+                                        Yani, sadece tek bir karakterin değiştirilmesini sağlar.
+
+replaceAll(String regex, String replacement)--> bir dize içindeki tüm belirli karakterleri
+                                                veya belirli bir regular expression'ı başka bir dize
+                                                veya karakterle değiştirmek için kullanılır.
+                                                Yani, bir veya daha fazla karakterin değiştirilmesini sağlar.
+
+
+
+trim();--> Stringin başında ve sonunda yer alan boşlukları
+           (veya diğer belirli karakterleri) kaldırmak için kullanılan bir string yöntemidir.
+           Bu yöntem, bir string'in başında ve sonunda yer alan herhangi bir boşluğu kaldırarak,
+           geri kalan metin içeriğini döndürür. Boşluk karakterleri şunlar olabilir:
+           boşluk (" "), tab (\t), satır başı (\n) veya diğer karakterler.
+
+
+
+
+split();--> Stringli bir ifadeyi bosluktan parçalar
+            split() methodundan sonra indexi daima koseli parantez kullanarak gosteririz
+            mesela "ali can"
+            split(regex:" ")[1] demek --> can kelimesini al demek
+            ("ali can"i bosluktan ikiye boler index 0 -->ali
+                                             index 1 -->can olur)
+
+             split(regex:" ")[1].char(0) demek
+             can kelimesinin ilk indexini al demek
+
+
+
+
+

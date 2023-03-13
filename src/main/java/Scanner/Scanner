@@ -1,0 +1,31 @@
+Scanner: Java programlama dilinde kullanılan bir sınıftır ve kullanıcı girdisi okumak için kullanılır.
+ Scanner nesnesi oluşturarak kullanıcının klavyeden veya bir dosyadan girdiği verileri okuyabilirsiniz.
+
+scan(): Scanner sınıfının bir yöntemidir ve kullanıcı girdisini okumak için kullanılır.
+ Bu yöntem farklı veri türlerindeki girdileri okuyabilir, örneğin bir tam sayı, bir ondalık sayı veya bir dize.
+
+System.in: Bu, Java'nın standart giriş akışıdır ve kullanıcıdan klavye veya bir dosya gibi bir girdi kaynağından veri okumak için kullanılır.
+ Scanner sınıfı, System.in giriş akışından veri okumak için kullanılır.
+
+input: "Input" kelimesi genellikle bir programın aldığı verilere atıfta bulunmak için kullanılır.
+ Kullanıcı girdileri, bir dosyadan okunan veriler veya bir ağ bağlantısı üzerinden alınan veriler, programın "input" verileridir.
+
+Bu kelimeler bir arada kullanıldığında, örneğin "Scanner, System.in kullanarak input okuyabilir",
+ bu, Scanner sınıfını kullanarak System.in giriş akışından programın input verilerini okuyabileceğimizi belirtir.
+
+
+
+ scanner.next dediğimizde buradaki noktayı neden dolayı koyarız
+ Java programlama dilinde Scanner sınıfı bir nesne yönelimli programlama (OOP) sınıfıdır.
+ Scanner nesneleri, girdi verilerini okumak için kullanılır ve bu nesneler çeşitli girdi yöntemlerine sahiptir.
+
+ Scanner nesneleri ile birlikte kullanılan yöntemler arasında next(), nextInt(), nextLine() vb. yer almaktadır.
+  next() yöntemi, bir sonraki boşluğa kadar olan kelimeyi okur ve bunu bir dize olarak döndürür.
+   Örneğin, scanner.next() çağrısı, kullanıcının klavyeden girdiği ilk kelimeyi okur.
+
+ Buradaki nokta (.), "dot operator" olarak adlandırılır ve bir nesnenin özelliklerine veya yöntemlerine erişmek için kullanılır.
+ Yani scanner.next() ifadesi, Scanner sınıfından bir nesne olan scanner üzerinde next() yöntemini çağırır.
+  Bu yöntem, kullanıcının girdiği bir sonraki kelimeyi okur.
+
+ Bu nedenle, scanner.next() ifadesindeki nokta, Scanner sınıfının bir nesnesi üzerinde bir
+  yöntem çağırmak için kullanılan standart bir OOP sözdizimidir.
