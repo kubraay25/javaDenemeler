@@ -94,5 +94,30 @@ split();--> Stringli bir ifadeyi bosluktan parçalar
 
 
 
+isEmpty()--> bir veri yapısının (örneğin, bir dize, liste veya dizin) boş olup olmadığını kontrol etmektir.
+             "bos mu?" sorusuna cevaptir
+             Bu metod, veri yapısının içinde hiç eleman yoksa "true" değerini döndürürken,
+             en az bir eleman varsa "false" değerini döndürür.
 
+
+
+
+isBlank()--> sadece "space" iceren Stringler icin true verir
+             space disinda bir karakter icerirse "false" verir
+             isBlank methodu isEmpty methodunuda icerir
+
+
+
+             isBlank()--> space+hicbir sey icin "true"
+             isEmpty()--> hicbir şey icin "true"
+
+
+
+indexOf() --> bir karakterin ilk gorunumunun indexini verir
+              indexOf() methodu olmayan karakterler icin "-1" degerini verir
+
+
+
+lastIndexOf() --> bir karakterin veya dizenin son bulundugu indexi verir
+                  olmayan ifadede "-1" verir
 
